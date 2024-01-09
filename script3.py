@@ -19,3 +19,15 @@ test_array = np.array([[1,2,3,4,5,6,7],
               [8,9,10,11,12,13,14]])
 
 
+#Random decimal numbers
+print(np.random.rand(5,1000))
+
+#Random Integer values
+#2 is the upper bound for the random integers
+print(np.random.randint(2, size=(3,3)))
+print(np.random.randint(7,8, size=(3,3)))
+
+
+
+#Identity 
+print(np.identity(6))
