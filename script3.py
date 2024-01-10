@@ -31,3 +31,15 @@ print(np.random.randint(7,8, size=(3,3)))
 
 #Identity 
 print(np.identity(6))
+
+#Repeated value
+arr = np.array([6,8])
+repeated_array = np.repeat(arr, 6, axis=0)
+print(repeated_array)
+
+#testing 
+f_array = np.ones((5, 5))
+z = np.zeros((3, 3))
+z[1,1] = 9
+f_array[1:4,1:4] = z
+print(f_array)
